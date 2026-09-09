@@ -1,0 +1,93 @@
+import { readFileSync } from "node:fs";
+import { describe, expect, it } from "vitest";
+
+const app = readFileSync(new URL("../client/src/App.tsx", import.meta.url), "utf8");
+const header = readFileSync(new URL("../client/src/components/PublicSiteHeader.tsx", import.meta.url), "utf8");
+const mobileNavigation = readFileSync(new URL("../client/src/components/MobileNavigationDrawer.tsx", import.meta.url), "utf8");
+const expert = readFileSync(new URL("../client/src/pages/TalkToExpert.tsx", import.meta.url), "utf8");
+const styles = readFileSync(new URL("../client/src/index.css", import.meta.url), "utf8");
+const expertPage = readFileSync(new URL("../client/src/pages/ContentAdmin.tsx", import.meta.url), "utf8");
+const managedContent = readFileSync(new URL("../client/src/lib/managedSiteContent.ts", import.meta.url), "utf8");
+const validation = readFileSync(new URL("../server/siteContent.ts", import.meta.url), "utf8");
+const router = readFileSync(new URL("../server/routers.ts", import.meta.url), "utf8");
+const visitorAnalytics = readFileSync(new URL("../client/src/pages/VisitorAnalytics.tsx", import.meta.url), "utf8");
+const privacyPolicy = readFileSync(new URL("../client/src/pages/PrivacyPolicy.tsx", import.meta.url), "utf8");
+const contentAdmin = readFileSync(new URL("../client/src/pages/ContentAdmin.tsx", import.meta.url), "utf8");
+
+describe("community guidelines removal", () => {
+  it("removes the public guidelines route and both menu entries", () => {
+    expect(app).not.toContain("CommunityGuidelines");
+    expect(app).not.toContain('path="/community-guidelines"');
+    expect(header).not.toContain("communityGuidelinesHref");
+    expect(header).not.toContain(">Guidelines</a>");
+    expect(mobileNavigation).not.toContain("communityGuidelinesHref");
+    expect(mobileNavigation).not.toContain("Community guidelines");
+    expect(expert).not.toContain("/community-guidelines");
+  });
+
+  it("preserves the WhatsApp community link, sharing action, and motion-safe emphasis", () => {
+    [header, mobileNavigation, expert].forEach((source) => expect(source).toContain("chat.whatsapp.com/KdaifKJ9LMc5j8eM5Ow6el"));
+    expect(header).toContain("Join our community");
+    expect(expert).toContain("Share this community");
+    expect(expert).toContain("Show QR code to join the WhatsApp community");
+    expect(expert).toContain("Copy Link");
+    expect(expert).toContain("qrcode");
+    expect(expert).toContain("community-contact-pulse");
+    expect(styles).toContain("@keyframes community-contact-pulse");
+    expect(styles).toContain("prefers-reduced-motion: no-preference");
+  });
+
+  it("keeps the remaining navigation in one dropdown and guidance private to owners", () => {
+    expect(header).toContain("Open myIAM menu");
+    expect(header).toContain("myIAM navigation");
+    expect(header).toContain("<DropdownMenuContent");
+    expect(header).toContain("justify-end");
+    expect(header).not.toContain(">Community</span>");
+    expect(header).toContain("Community");
+    expect(header).toContain("Lab");
+    expect(header).toContain("FlaskConical");
+    expect(header).toContain("ShieldCheck");
+    expect(header).toContain("Content administration");
+    expect(header).toContain("myIAM Lab is active");
+    expect(header).not.toContain(">Lab</span>");
+    expect(header).not.toContain("OwnerHeaderStatus");
+    expect(header).not.toContain("activeLabel");
+    expect(header).toContain("https://github.com/sbkannan-maker/myIAM");
+    expect(header).toContain("http://sbku.gitlab.com/");
+    expect(header).toContain("Github");
+    expect(header).toContain("Gitlab");
+    expect(header).toContain("Open the myIAM GitHub repository in a new tab");
+    expect(header).toContain("Open the myIAM GitLab page in a new tab");
+    expect(header).toContain('rel="noopener noreferrer"');
+    expect(managedContent).toContain('"community-guidance"');
+    expect(expertPage).toContain('area: "community-guidance"');
+    expect(expertPage).toContain("private community guidance");
+    expect(expertPage).toContain("CommunityGuidanceEditor");
+    expect(readFileSync(new URL("../client/src/components/CommunityGuidanceEditor.tsx", import.meta.url), "utf8")).toContain("Bold selected");
+    expect(readFileSync(new URL("../client/src/components/CommunityGuidanceEditor.tsx", import.meta.url), "utf8")).toContain("Add rule");
+    expect(validation).toContain('"community-guidance"');
+    expect(router).toContain("adminDocuments: adminProcedure");
+    expect(router).toContain("saveDocument: adminProcedure");
+    expect(router).toContain("siteAnalytics");
+    expect(router).toContain("overview: adminProcedure");
+    expect(router).toContain("startDate: z.string().date().optional()");
+    expect(router).toContain("endDate: z.string().date().optional()");
+    expect(visitorAnalytics).toContain("Apply range");
+    expect(visitorAnalytics).toContain("Quick range");
+    expect(visitorAnalytics).toContain("Export CSV");
+    expect(visitorAnalytics).toContain("visitorAnalyticsToCsv");
+    expect(visitorAnalytics).toContain("type=\"date\"");
+    expect(app).toContain('path="/privacy-policy"');
+    expect(privacyPolicy).toContain("does not store raw IP addresses");
+    expect(contentAdmin).toContain(">Edit</button>");
+    expect(contentAdmin).toContain("icon: FlaskConical");
+    expect(contentAdmin).toContain("icon: ShieldCheck");
+    expect(header).toContain("Open owner administration shortcuts");
+    expect(header).toContain("/owner/visitor-analytics");
+    expect(header).toContain("/owner/content#community-guidance");
+    expect(header).toContain("motion-safe:hover:scale-[1.06]");
+    expect(contentAdmin).toContain("publishing-editor");
+    expect(readFileSync(new URL("../client/src/pages/VisitorAnalytics.tsx", import.meta.url), "utf8")).toContain("Privacy-minimized reporting");
+    expect(readFileSync(new URL("../client/src/pages/VisitorAnalytics.tsx", import.meta.url), "utf8")).toContain("does not store raw IP addresses");
+  });
+});

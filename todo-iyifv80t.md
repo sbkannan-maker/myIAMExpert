@@ -1,0 +1,579 @@
+# Consulting Contact and Theme Refresh
+
+- [x] Review the restored site structure and add a clear consulting-contact entry point.
+- [x] Create a dedicated LinkedIn consulting contact page with professional context and direct profile access.
+- [x] Refresh the UI with a lighter, cooler, more elegant identity-security visual system.
+- [x] Validate the consulting contact route and responsive theme across desktop and mobile views.
+- [x] Review the public LinkedIn source material and current Consulting page structure for credible content additions.
+- [x] Add evidence-led IAM consulting case-study and success-story content without inventing client outcomes.
+- [x] Add a direct client outreach path through LinkedIn and an on-page contact form.
+- [x] Add a curated feed of recent LinkedIn posts and articles to the Consulting page.
+- [x] Validate the expanded Consulting page across desktop and mobile layouts.
+- [x] Review the Talk to an Expert and Blog reference pages and map their reusable structural patterns.
+- [x] Prepare the supplied K logo and video as managed website assets.
+- [x] Add a distinct Talk to an Expert page with expert-contact conversion paths.
+- [x] Add a distinct Blog page with Kannan’s IAM articles and post references.
+- [x] Apply the K logo in the header and key brand touchpoints and add the looping video header treatment.
+- [x] Validate the new pages, brand assets, and video presentation on desktop and mobile.
+- [x] Review the current expert booking controls, blog data model, and looping-video hero treatment.
+- [x] Add the user-supplied Calendly booking URL to the Talk to an Expert experience.
+- [x] Create on-site detail pages for each published blog article.
+- [x] Strengthen the semi-transparent dark overlay on looping video headers for readability.
+- [x] Validate booking navigation, article detail routes, and desktop/mobile contrast.
+- [x] Confirm the Talk to an Expert Calendly button opens the configured 30-minute booking URL from the live site.
+- [x] Review the current Talk to an Expert and individual blog-page structures.
+- [x] Embed the configured Calendly scheduler directly within the Talk to an Expert page.
+- [x] Add article categories and related-post recommendations to each blog detail page.
+- [x] Add LinkedIn social-sharing controls to individual blog detail pages.
+- [x] Validate embedded scheduling and article discovery interactions across desktop and mobile.
+- [x] Replace the blank inline scheduler frame with Calendly’s official embedded widget and preserve a direct-booking fallback.
+- [x] Review current blog metadata, discovery controls, and inline scheduler behavior.
+- [x] Add professional Open Graph and LinkedIn preview metadata to individual blog pages.
+- [x] Add keyword search and category filtering to the Blog library.
+- [x] Add scheduler introduction copy and a smooth loading state above the embedded Calendly widget.
+- [x] Validate sharing metadata, blog filtering, and scheduler behavior across desktop and mobile.
+- [x] Interactively verify Blog keyword/category filters and clear behavior on desktop and mobile.
+- [x] Confirm the responsive mobile Blog filter controls remain interactive and preserve the expected filtered result state.
+- [x] Confirm the scheduler introduction, animated loading state, and live-availability status during embed initialization.
+- [x] Keep a concise animated live-availability status visible above the inline scheduler while its external calendar content initializes.
+- [x] Review public routes, existing Blog taxonomy, and SEO delivery configuration.
+- [x] Generate a sitemap.xml that lists the primary public and article-detail routes.
+- [x] Generate a standards-compliant RSS feed for the Blog articles.
+- [x] Refine Blog categories with specific IAM topics and update the existing article assignments.
+- [x] Validate sitemap, RSS output, category filtering, and production build.
+- [x] Interactively verify each refined IAM category filter returns its expected Blog article set.
+- [x] Add an automated category-to-article mapping assertion for the refined IAM taxonomy.
+- [x] Save a production-ready checkpoint and guide the user to publish it for LinkedIn preview testing.
+- [x] Review the current Blog articles, RSS generator, newsletter integration options, and Calendly embed flow.
+- [x] Add an evidence-led SailPoint IdentityIQ implementation case study without unapproved client claims or fabricated success metrics.
+- [x] Include publish dates and author names in all Blog RSS entries.
+- [x] Add a Blog newsletter subscription form with validated subscription handling.
+- [x] Correct the inline Calendly loading path and preserve a direct booking fallback.
+- [x] Add a clear Calendly-unavailable fallback that routes visitors to direct inquiry or LinkedIn when external availability cannot load.
+- [x] Validate case-study content, RSS metadata, newsletter submissions, and scheduling behavior.
+- [x] Add automated procedure-level coverage for successful and duplicate-safe newsletter subscriptions without inserting live test data.
+- [x] Add an animated, accessible success confirmation after newsletter subscription.
+- [x] Add topic/category filters to the consulting case-study section, including SailPoint IdentityIQ delivery.
+- [x] Add direct inquiry-email display and one-click copying to the Calendly-unavailable fallback.
+- [x] Validate newsletter feedback, case-study filtering, and calendar fallback interactions on desktop and mobile.
+- [x] Verify the newsletter success confirmation in a safe non-production test harness without subscribing a real address.
+- [x] Verify the mobile case-study topic filter changes the visible results and count.
+- [x] Verify the mobile calendar recovery actions, including the email-copy confirmation and retry behavior.
+- [x] Update visible header branding to myIAM with the caption The Core Identity Solution.
+- [x] Add three clearly labelled evidence-led consulting reference scenarios without invented client claims or outcomes.
+- [x] Add smooth accessible transition animations when consulting case-study filters change.
+- [x] Add an Email copied! toast after the calendar recovery email is copied.
+- [x] Validate the updated branding, reference scenarios, filter motion, and copy notification on desktop and mobile.
+- [x] Verify the refined consulting category filter and reference cards with touch interaction at a 390px viewport.
+- [x] Verify the Email copied! toast and inline copy state with touch interaction at a 390px viewport.
+- [x] Preview the myIAM branding and consulting category filters in the live site.
+- [x] Review the newsletter success animation and confirmation state without creating a real subscription.
+- [x] Test the Calendly-unavailable fallback and email-copy feedback on the /expert page.
+- [x] Replace the current logo lockup with the supplied myIAM ISC logo and update the caption to Enhance your Innovations towards IAM.
+- [x] Add the supplied official SailPoint Ambassador badge in a suitable professional site area.
+- [x] Research and model the publicly available WordPress content at sbkannan.wordpress.com in a dedicated website page with source attribution.
+- [x] Diagnose the inline Calendly widget and improve the /expert scheduler experience while retaining reliable direct-contact recovery.
+- [x] Verify the updated /expert recovery panel clearly identifies external event-type unavailability while retaining direct inquiry, LinkedIn, copy-email, and retry actions.
+- [x] Wait for the refreshed /expert fallback and verify its new wording, direct inquiry, LinkedIn, copy-email, and retry controls in the browser.
+- [x] Run tests, type check, and browser validation after the clarified Calendly recovery update.
+- [x] Validate the refreshed branding, ambassador recognition, WordPress page, and calendar experience on desktop and mobile.
+- [x] Explicitly inspect the Consulting page to verify the supplied SailPoint Ambassador badge on desktop and mobile.
+- [x] Explicitly verify the /knowledge layout and the clarified /expert calendar fallback at a mobile viewport and record the result.
+- [x] Prevent mobile header action controls from clipping the full myIAM caption on Consulting, Knowledge, and Expert pages.
+- [x] Explicitly verify the full myIAM caption remains visible without clipping on Consulting, Knowledge, and Expert at a 390px mobile viewport.
+- [x] Refine the /knowledge archive search bar and category filters for direct article discovery.
+- [x] Add an accessible hover-and-focus tooltip explaining the SailPoint Ambassador badge and its significance.
+- [x] Validate archive search/filtering and Ambassador tooltip interactions on desktop and mobile.
+- [x] Verify the /knowledge search, clear action, and category filters at a 390px mobile viewport.
+- [x] Verify the Ambassador tooltip is visibly shown on hover and keyboard focus, and provide an intentional touch fallback on mobile.
+- [x] Re-test visible desktop hover and keyboard-focus states for the Ambassador tooltip after the touch-fallback fix.
+- [x] Add a newest-insights section to the /knowledge page using the most recently published site articles.
+- [x] Add clickable topic tags to /knowledge article cards that apply archive filtering.
+- [x] Validate newest-insights ordering and topic-tag filtering on desktop and mobile.
+- [x] Confirm newest-insights ordering from existing publishedAt metadata and add topic mapping coverage for all archive notes.
+- [x] Validate newest-insights ordering and tag-click filtering in the live /knowledge page on desktop and mobile.
+- [x] Add a selected-insights section to the home page with clear links into current and archived knowledge.
+- [x] Add an accessible relevance/date sort toggle to the knowledge archive.
+- [x] Sync archive topic filters to a shareable URL parameter and hydrate topic-filtered views from direct links.
+- [x] Validate home insight navigation, archive sorting, shareable topic URLs, and mobile layout behavior.
+- [x] Implement and validate an explicit relevance/date archive sort behavior rather than archive-order-only sorting.
+- [x] Run the full test, type-check, and production-build suite after home insights, sorting, and shareable topic URL changes.
+- [x] Audit every public-page header and replace the current lockup with one consistently larger logo and the requested standalone caption treatment.
+- [x] Remove the visible myIAM wordmark text beside the header logo and present “Enrich Your Innovation & Elevate Your Identity” beneath the logo with an elevated, readable treatment.
+- [x] Add an accessible archive autosuggest search that surfaces matching notes and topics while the visitor types.
+- [x] Add a persistent dark-mode toggle for the knowledge archive reading experience.
+- [x] Add a one-click copy-link action beside active topic views with clear success feedback and fallback handling.
+- [x] Add or update automated tests for archive search suggestions, theme preference behavior, and topic-link copying where practical.
+- [x] Validate global logo consistency, archive autosuggest, dark mode, and copy-link controls on desktop and 390px mobile.
+- [x] Run the full test, type-check, and production-build suite after the branding and archive interaction update.
+- [x] Add practical automated coverage for persisted theme selection and the copy-link feedback contract.
+- [x] Exercise archive autosuggest selection, dark-mode toggling, and topic-link copying at a 390px touch viewport and record the results.
+- [x] Re-run the complete release suite after adding reader-preference and copy-link feedback contract tests.
+- [x] Review shared header variants and replace the current framed logo and caption styling with a natural, integrated treatment.
+- [x] Add a consistently available light/dark reading-mode control across all public routes.
+- [x] Implement an accessible compact mobile navigation drawer with primary site routes and reading-mode control.
+- [x] Add keyboard arrow, Home/End, Enter, and Escape support to archive autosuggest options with active-option semantics.
+- [x] Add persistent device-local topic bookmarks with save/remove feedback and quick revisit controls in the knowledge archive.
+- [x] Add automated coverage for bookmark persistence and keyboard suggestion-selection helpers where practical.
+- [x] Validate the redesigned headers, mobile drawer, global theme control, keyboard autosuggest flow, and bookmarks on desktop and 390px mobile.
+- [x] Run the full test, type-check, and production-build suite after the navigation and archive accessibility update.
+- [x] Interactively validate the global reading-mode toggle and persisted state from its desktop utility and mobile drawer placements.
+- [x] Audit the supplied logo’s opaque treatment and replace it with a header-safe adaptive treatment that preserves the recognizable myIAM mark.
+- [x] Add a subtle logo-intro motion that appears before the static logo and repeats on a 30-second cycle without disrupting navigation.
+- [x] Respect reduced-motion preferences by displaying the static header brand without the recurring intro animation.
+- [x] Validate transparent blending, 30-second repeat behavior, caption readability, and reduced-motion fallback at desktop and 390px mobile.
+- [x] Run the full test, type-check, and production-build suite after the animated header-brand update.
+- [x] Replace the generated opaque-checkerboard logo asset with an adaptive code-rendered myIAM lockup that blends cleanly on light and dark headers.
+- [x] Validate the 30-second intro-to-static sequence and reduced-motion fallback at a true 390px mobile viewport without disrupting header layout or navigation.
+- [x] At a true 390px viewport, verify the animated and reduced-motion header lockup does not interfere with mobile navigation controls or route changes.
+- [x] Analyze the supplied logo-animation video for its reveal, orbit, timing, and settle behavior.
+- [x] Update the shared myIAM vector motion to match the supplied video’s visual pacing while retaining the 30-second cycle.
+- [x] Preserve the static reduced-motion fallback and validate matched motion at desktop and 390px mobile.
+- [x] Run the full test, type-check, and production-build suite after the reference-matched animation update.
+- [x] Inspect the supplied K-logo video’s dimensions, duration, audio stream, and safe header crop.
+- [x] Upload the exact supplied K-logo video as a managed web asset and use it as the shared header logo.
+- [x] Add an explicit user-initiated sound toggle for the header video with clear muted/unmuted feedback.
+- [x] Add a subtle hover/focus scale interaction to the exact video logo without affecting header layout.
+- [x] Preserve a static accessible fallback for reduced-motion users and for video playback failures.
+- [x] Validate video playback, opt-in audio, hover/focus behavior, static fallback, responsive fit, and navigation safety on desktop and 390px mobile.
+- [x] Run the full test, type-check, and production-build suite after the exact-video header update.
+- [x] Ensure reduced-motion activation pauses and mutes the exact video immediately, and preserve the current opt-in sound preference across each 30-second restart.
+- [x] Prevent sound activation from unmuting the hidden K-logo video while reduced-motion mode is active.
+- [x] At desktop width, verify the exact K-logo video does not interfere with header route controls during playback and after its static hold.
+- [x] Review the existing Talk to an Expert layout and map the supplied reference’s premium dark consultation structure to the current approved content.
+- [x] Redesign the Talk to an Expert page with a dark high-contrast two-column consultation layout, modern direct-call/inquiry tabs, and a clear three-step expectation panel.
+- [x] Update the shared visual system with more attractive modern dark-blue, cyan, and electric-blue color treatments and stronger contemporary text hierarchy.
+- [x] Add a lightweight exact-video loading placeholder and an opacity cross-fade into the static video frame when playback ends.
+- [x] Preserve Calendly recovery, direct inquiry, and all existing evidence-led content without fabricating testimonials, availability, or outcomes.
+- [x] Add practical automated coverage for logo-video loading/fade class contracts and consultation view-state behavior where appropriate.
+- [x] Validate the redesigned expert experience, theme treatments, logo-video loading/fade states, and responsive interaction at desktop and 390px mobile.
+- [x] Run the full test, type-check, and production-build suite after the premium visual refresh.
+- [x] Add an automated consultation channel-state contract for booking versus inquiry panels and their expected accessible labels.
+- [x] Audit the restored public routes, shared theme foundations, navigation variants, and inline Calendly diagnostic state.
+- [x] Add a reusable dynamic content-search component with accessible filtering and result feedback.
+- [x] Add a persistent navigation dark-mode toggle that uses the existing reading-mode preference consistently.
+- [x] Add shared smooth-scroll behavior and motion-safe hover/active interactions for public-page buttons.
+- [x] Normalize public-page spacing, colors, typography, controls, and navigation treatment around the premium dark identity system.
+- [x] Repair the Calendly inline-load sequence and verify the live scheduler or an explicit, actionable recovery state.
+- [x] Add or update focused automated tests for the shared search, theme-navigation control, and Calendly state contract.
+- [x] Validate shared design consistency, content filtering, keyboard access, motion preferences, dark-mode persistence, and Calendly behavior on desktop and 390px mobile.
+- [x] Run the full test, type-check, and production-build suite after the cross-page experience and Calendly repair.
+- [x] Inspect the supplied MP4 and the current header, homepage, preference, search, and Calendly implementations before integration.
+- [x] Upload the supplied video as a managed web asset and replace the shared header logo video plus the homepage background animation.
+- [x] Add a compact visual preferences panel adjacent to the theme control with accessible motion and logo-audio settings.
+- [x] Add a keyboard-accessible global command search overlay spanning use cases, knowledge notes, and Blog articles.
+- [x] Verify the enabled public Calendly event, restore active inline booking, and preserve an honest recovery panel for future external failures.
+- [x] Extract the supplied Google Calendar appointment-schedule URL and verify that it is publicly available for visitors.
+- [x] Confirm the supplied Google Calendar schedule is a frame reference only and retain the user-owned sbkannan Calendly destination.
+- [x] Adapt the user-owned Calendly booking panel with the reusable supplied frame pattern while retaining direct inquiry recovery.
+- [x] Add or update an automated scheduler contract for the Calendly URL, active-event signal, and fallback state.
+- [x] Validate live appointment selection, expert-page loading/recovery, and responsive layout at desktop and 390px mobile.
+- [x] Run the full test, type-check, and production-build suite after the corrected user-owned booking integration.
+- [x] Add focused automated contracts for the new media preference/search and Calendly active-event behavior where practical.
+- [x] Validate desktop and 390px mobile video presentation, preference controls, command search, keyboard behavior, and live scheduler state.
+- [x] Run the full test, type-check, and production-build suite after the media, search, preference, and booking upgrade.
+- [x] Inspect the current expert scheduler, route wiring, public event data, and measurement infrastructure before extending booking guidance.
+- [x] Make the Calendly booking frame more compact and add the approved secure-loading guidance directly beneath it.
+- [x] Add clear visitor-local timezone context beside the Calendly booking frame.
+- [x] Create an accessible booking confirmation route with concise pre-call preparation guidance.
+- [x] Capture privacy-conscious Calendly booking-start and booking-completion interaction events without collecting visitor meeting details.
+- [x] Add automated contracts for frame guidance, timezone formatting, confirmation guidance, and booking interaction event mappings.
+- [x] Validate scheduler sizing, loading copy, timezone context, confirmation navigation, interaction signals, and responsive desktop/390px behavior.
+- [x] Run the full test, type-check, and production-build suite after the booking-experience refinement.
+- [x] Inspect the booking confirmation, aggregate tracking data, owner authorization patterns, and existing dashboard components before extending the journey.
+- [x] Create a downloadable enterprise IAM pre-call checklist and link it from the booking confirmation page.
+- [x] Create a post-call follow-up resources page and link it from the booking confirmation page.
+- [x] Build an owner-only daily booking metrics dashboard using aggregate start and completion event counts.
+- [x] Add automated coverage for checklist/follow-up content, daily metric normalization, and owner-only access contracts.
+- [x] Validate download behavior, post-call resources, dashboard authorization, daily metric rendering, and desktop/390px responsiveness.
+- [x] Run the full test, type-check, and production-build suite after the booking-journey expansion.
+- [x] Inspect the metrics data flow, post-call access pattern, resource controls, and Talk to an Expert visual variance before extending the experience.
+- [x] Add owner date-range filtering and CSV export for aggregate daily booking start and completion counts.
+- [x] Add an authenticated client resource library reachable from post-call resources without exposing materials publicly.
+- [x] Add polished loading and hover feedback to the pre-call checklist download and post-call resource links.
+- [x] Align the Talk to an Expert navigation, typography, controls, layers, and spacing with the shared myIAM theme while retaining working booking features.
+- [x] Add automated contracts for date-range normalization, CSV formatting, protected resource access, and shared theme content where practical.
+- [x] Validate owner metrics filtering/export, client access protection, resource interactions, expert-page theme consistency, and desktop/390px layouts.
+- [x] Run the full test, type-check, and production-build suite after the owner, client, and booking experience expansion.
+
+- [x] Add a reusable toast notification system with accessible, non-intrusive presentation.
+- [x] Wire contextual toast feedback to primary page buttons and meaningful interactions.
+- [x] Add focused tests and validate toast behavior across desktop and mobile.
+- [x] Save a checkpoint for the completed toast integration.
+
+## Toast integration session
+- [x] Inspect existing toast primitives and app providers.
+- [x] Implement and verify the toast surface.
+- [x] Complete release validation and checkpoint.
+
+- [x] Extend toast feedback to newsletter signup success and error states.
+- [x] Extend toast feedback to copy-link success and fallback/error states.
+- [x] Extend toast feedback to booking confirmation actions.
+- [x] Customize toast visuals to match the myIAM cyan/electric-blue theme.
+- [x] Add focused tests and validate the extended toast flows on desktop and mobile.
+- [x] Save a checkpoint for the extended toast integration.
+
+- [x] Create a separate architecture-focused Home page for Identity Fabric, IdentityIQ, Identity Security Cloud, and high-level architecture.
+- [x] Replace reference-inspired wording with original myIAM-owned architecture content and navigation.
+- [x] Build an accurate, responsive high-level IAM architecture diagram for the new Home page.
+- [x] Validate and upload the supplied 20260818_084553000_iOS.MP4 as the shared header video asset.
+- [x] Replace shared header video references with the supplied managed asset and preserve accessible fallback behavior.
+- [x] Add focused tests for architecture content, route wiring, and supplied media configuration.
+- [x] Validate the new Home page and video on desktop and mobile, then save a checkpoint.
+
+- [x] Add accessible hover and keyboard-focus tooltips explaining each high-level architecture layer.
+- [x] Add a smooth-scroll Home-page menu for Identity Fabric, IdentityIQ, and Identity Security Cloud sections.
+- [x] Upload the supplied myIAM-ISC.png as the managed static brand logo asset.
+- [x] Update the shared logo sequence to hold the supplied static logo for 30 seconds after playback, then replay the video.
+- [x] Add focused tests and validate tooltips, in-page navigation, video replay, static logo hold, and responsive layouts.
+- [x] Save a checkpoint for the architecture interaction and logo-cycle enhancement.
+
+- [x] Rewrite the /use-cases catalog body copy for clearer identity-engineering discovery and next steps.
+- [x] Make high-level architecture diagram layers open accessible detailed side panels.
+- [x] Add an IIQ-versus-ISC comparison section with integration differences and practical use cases.
+- [x] Create a managed high-level architecture overview PDF and add a header download action.
+- [x] Add focused tests and validate catalog clarity, side panels, comparison, download behavior, and responsive layouts.
+- [x] Save a checkpoint for the catalog and architecture expansion.
+
+- [x] Add an interactive architecture decision questionnaire that recommends IIQ, ISC, or a hybrid approach based on clear user inputs.
+- [x] Make questionnaire scoring transparent and link each result to a relevant next action.
+- [x] Add direct side-panel component links to the relevant filtered use-case catalog views.
+- [x] Add focused tests and validate decision recommendations, catalog links, accessibility, and responsive layouts.
+- [x] Save a checkpoint for the decision questionnaire and component-link enhancement.
+
+- [x] Remove the background video from the /use-cases catalog page.
+- [x] Retain a static dark myIAM background treatment and catalog readability after video removal.
+- [x] Validate the use-case page on desktop and mobile without the background video.
+- [x] Save a checkpoint for the use-case background update.
+
+- [x] Add a compact Return to Architecture link in the use-case catalog header.
+- [x] Synchronize public catalog category, complexity, search, and curated-result filters to a shareable URL.
+- [x] Restore a valid curated catalog filter state from a shared URL and provide a copyable share action.
+- [x] Add subtle static domain illustrations to the catalog’s three discovery steps.
+- [x] Add focused tests and validate catalog navigation, filter sharing, static visuals, and responsive layouts.
+- [x] Save a checkpoint for the catalog navigation, sharing, and visual enhancement.
+
+- [x] Rebuild the /use-cases hero to match the Home page’s architecture-first dark technical composition.
+- [x] Align catalog sections, filters, cards, and calls to action with Home page spacing, layers, tones, and typography.
+- [x] Preserve search, AI matching, saved patterns, shareable URLs, and existing catalog behavior during the redesign.
+- [x] Add focused tests and validate the Home-aligned catalog design on desktop and mobile.
+- [x] Save a checkpoint for the Home-aligned use-case redesign.
+
+- [x] Add scroll-aware active-section highlighting to the /use-cases in-page navigation.
+- [x] Add a compact category color legend to clarify catalog taxonomy badges and filters.
+- [x] Implement a comparison drawer that supports selecting and reviewing two or three saved use cases.
+- [x] Add focused tests and validate active navigation, comparison behavior, legend clarity, accessibility, and responsive layouts.
+- [x] Save a checkpoint for the catalog orientation and comparison enhancement.
+
+- [x] Package the reusable myIAM architecture-and-catalog delivery workflow as a skill.
+- [x] Validate the skill package and provide it for installation or download.
+
+- [x] Extend the myIAM architecture-and-catalog skill with automated unit and end-to-end test workflow guidance.
+- [x] Generate and validate a small interactive architecture web project using the reusable skill workflow.
+- [x] Export shareable skill documentation and package the skill for repository or team distribution.
+- [x] Deliver the validated skill package and proof-of-use project artifacts.
+
+- [x] Create an internal developer portal deployment and hosting guide for the reusable skill and validation project.
+- [x] Add portable cross-browser regression scripts for persistent catalog URL state and comparison drawer behavior.
+- [x] Run the regression suite and preview the interactive architecture validation project in the browser.
+- [x] Package and deliver the deployment guide, regression scripts, and preview result.
+
+- [x] Add a visual dashboard for architecture decision questionnaire results in the validation project.
+- [x] Add an accessible persisted dark-mode toggle to the validation project.
+- [x] Add a client-side feedback form for rating IIQ, ISC, or hybrid recommendations without collecting data externally.
+- [x] Add tests and browser validation for the dashboard, theme preference, and feedback flow.
+- [x] Package and deliver the enhanced validation project artifacts.
+- [x] Add a labeled Lab icon to the shared public header, routing to the user-provided Lab login URL.
+- [x] Add focused regression coverage and validate the Lab link across header layouts.
+- [x] Save a checkpoint and deliver the Lab header enhancement.
+- [x] Align the Blog archive page visually and structurally with the Knowledge archive while retaining blog discovery and article routes.
+- [x] Add an accessible explanatory tooltip and active green status indicator to the Lab header control.
+- [x] Open the Lab destination in a new tab with safe external-link attributes.
+- [x] Add focused tests and validate the Blog and Lab updates on desktop and mobile.
+- [x] Save a checkpoint and deliver the Blog and Lab enhancement.
+- [x] Align the Delivery Guide page visually and structurally with the Knowledge archive while preserving its implementation guidance.
+- [x] Add date-based article sorting to the Blog library.
+- [x] Create author and topic detail routes that link to filtered article discovery views.
+- [x] Add a browser-local Blog reading list with save, remove, and saved-only discovery states.
+- [x] Add focused tests and validate Delivery Guide and Blog discovery updates across desktop and mobile layouts.
+- [x] Save a checkpoint and deliver the completed Delivery Guide and Blog enhancements.
+- [x] Use the shared public header on all public pages and ensure the current menu item is visibly active.
+- [x] Remove the architecture overview download action from the shared header.
+- [x] Synchronize Blog sort and filter state to shareable URLs with direct-link restoration.
+- [x] Add an accessible estimated reading-progress indicator to Blog article detail pages.
+- [x] Add related-topic recommendations at the bottom of Blog article detail pages.
+- [x] Add focused tests and validate shared navigation plus Blog URL, reading, and discovery behavior on desktop and mobile.
+- [x] Save a checkpoint and deliver the navigation and Blog enhancement.
+- [x] Merge the Consulting Contact information into Talk to an Expert while preserving clear consultation calls to action.
+- [x] Redirect the former Consulting route to the unified Talk to an Expert page.
+- [x] Generate validated per-topic Blog RSS feeds and expose topic-specific subscription links.
+- [x] Add focused tests and validate expert routing, feeds, and responsive Blog presentation.
+- [x] Save a checkpoint and deliver the consulting and topic-RSS enhancements.
+- [x] Position the Talk to an Expert professional profile above the Calendly booking panel on desktop while preserving responsive order.
+- [x] Add a browser-local topic email-alert preference form to the Blog page with clear privacy scope.
+- [x] Keep selected-topic email-alert preferences browser-local only; do not configure external email delivery.
+- [x] Add visible RSS subscription actions to Blog topic detail pages.
+- [x] Include topic RSS feed URLs in the sitemap.
+- [x] Add focused tests and validate profile placement, subscription preferences, RSS links, sitemap entries, and mobile layout.
+- [x] Save a checkpoint and deliver the profile and Blog subscription enhancements.
+- [x] Move the professional profile into the left Talk to an Expert column below the identity-security introduction.
+- [x] Add a compact RSS action beside each Blog article topic tag for direct topic-feed access.
+- [x] Add a local topic-preference management section with view, edit, and reset controls.
+- [x] Add branded toast feedback for saved topic preferences and copied RSS feed links.
+- [x] Add focused tests and validate profile placement, RSS actions, local preference management, toast feedback, and mobile layout.
+- [x] Save a checkpoint and deliver the profile and Blog interaction enhancements.
+- [x] Move the professional profile to the right expert column below the consultation panel.
+- [x] Add clickable LinkedIn and X social media links to the professional profile card.
+- [x] Add topic filtering for the browser-local Blog reading list.
+- [x] Configure a smooth toast slide-in and a three-second automatic dismissal interval.
+- [x] Add focused tests and validate profile placement, saved-list filtering, social links, toast behavior, and mobile layout.
+- [x] Save a checkpoint and deliver the profile, reading-list, and toast improvements.
+- [x] Raise the Direct identity advisory column alignment on the Talk to an Expert desktop layout.
+- [x] Add a Blog-sidebar shortcut to copy the all-articles RSS link with toast feedback.
+- [x] Add a search field that filters the browser-local saved reading list.
+- [x] Persist the reading-list sort preference locally across browser sessions.
+- [x] Add focused tests and validate alignment, RSS copying, saved-search, persistent sort, and mobile layout.
+- [x] Save a checkpoint and deliver the expert and Blog reading-list improvements.
+- [x] Move the professional profile into the right side of the Consulting Context section.
+- [x] Add a clear-all local preferences action that resets saved reading-list items and the local sort setting.
+- [x] Add focused tests and validate the Consulting Context layout, reset behavior, and mobile presentation.
+- [x] Save a checkpoint and deliver the Consulting Context and local-preference reset improvements.
+- [x] Remove the “Describe your IAM scenario” section from the Use Cases page.
+- [x] Add focused regression coverage and validate the remaining Use Cases discovery layout on desktop and mobile.
+- [x] Save a checkpoint and deliver the Use Cases refinement.
+- [x] Remove the remaining catalog search field from the Use Cases page.
+- [x] Shorten taxonomy and filter labels for faster Use Cases scanning while retaining clear accessible names.
+- [x] Add a compact popular-patterns row that applies frequent scenario filters.
+- [x] Add a reset-all shortcut that clears category, complexity, shortlist, and curated catalog filters.
+- [x] Add focused tests and validate the simplified catalog controls on desktop and mobile.
+- [x] Save a checkpoint and deliver the catalog-discovery refinements.
+- [x] Review current catalog-card and shared-menu interaction styles.
+- [x] Add slight scale and layered shadow feedback to Use Cases catalog cards.
+- [x] Replace prior menu movement with a subtle motion-safe fade-in treatment.
+- [x] Add focused regression coverage and validate desktop/mobile interaction styling.
+- [x] Save a checkpoint and deliver the interaction refinements.
+- [x] Review catalog card focus behavior and filtered-result rendering.
+- [x] Add visible keyboard focus treatment to catalog card links and save controls.
+- [x] Add smooth, motion-safe filtered-result transition feedback.
+- [x] Add focused regression coverage and validate keyboard/mobile interactions.
+- [x] Save a checkpoint and deliver the catalog accessibility refinement.
+- [x] Assess the existing authentication, content sources, and safe admin-panel scope.
+- [x] Confirm the existing owner-only sign-in method and staged Blog, expert, and Use Cases content scope.
+- [x] Model database-backed records and protected procedures for Blog, expert, and Use Cases content.
+- [x] Build an owner-only admin workspace for all three content areas.
+- [x] Connect public Blog, expert, and Use Cases views to managed published records.
+- [x] Add tests and validate unauthorized access, owner sign-in, content updates, and public rendering.
+- [x] Save a checkpoint and deliver the admin experience.
+- [x] Review current owner-admin content persistence and protected navigation patterns.
+- [x] Add server-side revision history and owner-only document restoration.
+- [x] Add rich Blog article editing with formatted draft-versus-published preview.
+- [x] Add an owner-only Admin icon entry to the shared navigation.
+- [x] Add focused tests and validate revision, preview, editing, access, and responsive layout.
+- [x] Save a checkpoint and deliver the enhanced admin workspace.
+- [x] Model managed Blog media, revision notes, and automatic scheduled-publication state.
+- [x] Add protected Blog image uploads and insertable image references to the rich editor.
+- [x] Require and display revision notes for owner-published content changes.
+- [x] Build automatic future publication with a resilient scheduled release handler.
+- [x] Add tests and validate access, uploading, revision notes, and scheduled release behavior.
+- [x] Save a checkpoint and ask the owner to publish before the first automated schedule is activated.
+- [x] Define safe supported automation specifications and owner-only schedule boundaries.
+- [x] Confirm the owner-only publishing automation scope and schedule controls.
+- [x] Model approved Blog draft automation specifications and schedule lifecycle states.
+- [x] Build a protected automation specification builder with schedule, pause, resume, and cancellation controls.
+- [x] Add tests and validate schedule security, timing, pause, resume, and cancellation behavior.
+- [x] Save a checkpoint and deliver the automation builder.
+- [x] Review the existing Blog selector, Use Case data shape, and admin workspace navigation.
+- [x] Add guided new Blog post creation to the owner content workspace.
+- [x] Add guided new Use Case creation with valid catalog defaults.
+- [x] Add selector-driven Use Case editing with current-versus-draft comparison preview.
+- [x] Add a prominent return-to-public-home action in the owner content workspace.
+- [x] Add focused tests and validate owner editing, creation, comparison, and responsive navigation.
+- [x] Save a checkpoint and deliver the enhanced content workspace.
+- [x] Model safeguarded Blog and Use Case draft deletion, restoration, duplication, and preview access.
+- [x] Add protected soft delete and restore controls for selected Blog and Use Case records.
+- [x] Add duplicate-from-selected templates for Blog and Use Case records.
+- [x] Add revocable shareable draft preview links and public preview rendering.
+- [x] Add focused tests and validate safeguard, duplication, preview, and responsive workflows.
+- [x] Save a checkpoint and deliver the draft workflow enhancements.
+- [x] Review draft lifecycle persistence and define password, expiry, and bulk-operation safeguards.
+- [x] Add reviewer password protection and configurable expiry to draft preview links.
+- [x] Add an owner dashboard widget for active previews and recently deleted Blog and Use Case entries.
+- [x] Add safeguarded bulk archive and restore for selected Blog and Use Case records.
+- [x] Add focused tests and validate protected preview, expiry, dashboard, and bulk recovery workflows.
+- [x] Save a checkpoint and deliver the safeguarded review workflow.
+- [x] Review preview-link persistence and define privacy-conscious analytics and password-reset safeguards.
+- [x] Add owner-visible preview access metrics and tracking without collecting reviewer identity data.
+- [x] Add one-click preview password reset with revocation safeguards.
+- [x] Add search and filter controls for recently deleted Blog and Use Case entries.
+- [x] Add focused tests and validate metrics, reset, search, recovery, and responsive workflows.
+- [x] Save a checkpoint and deliver the preview administration enhancements.
+- [x] Model anonymous preview view events and clear expiry-risk thresholds.
+- [x] Add owner-only daily preview activity aggregation without reviewer identity data.
+- [x] Add a visual daily activity chart and expiry-risk reminder indicators to the lifecycle dashboard.
+- [x] Add focused tests and validate analytics privacy, reminders, and responsive chart presentation.
+- [x] Save a checkpoint and deliver the dashboard activity and reminder enhancements.
+- [x] Review current preview lifecycle contracts and define protected filter and renewal behavior.
+- [x] Add owner-only analytics filtering by preview ID and manual preview-link renewal.
+- [x] Add dashboard controls for selecting one preview’s activity and renewing expiring links directly from the dashboard.
+- [x] Create and exercise a password-protected sample preview link without recording reviewer identity data.
+- [x] Add focused tests and validate filtering, renewal safeguards, activity tracking, and responsive layout.
+- [x] Save a checkpoint and deliver the filtered activity and manual-renewal enhancements.
+- [x] Review shared desktop and mobile navigation placement for the WhatsApp community link.
+- [x] Upload the supplied WhatsApp community icon as a managed static web asset.
+- [x] Add a labelled WhatsApp Community control with safe new-tab behavior to the shared navigation.
+- [x] Add focused regression coverage and validate the navigation control at desktop and mobile breakpoints.
+- [x] Save a checkpoint and deliver the WhatsApp community navigation enhancement.
+- [x] Review route wiring and current Talk to an Expert community/contact surfaces.
+- [x] Create a concise public community guidelines page in the shared myIAM visual system.
+- [x] Link the WhatsApp community controls to the guidelines page and add the community option to Talk to an Expert.
+- [x] Standardize the WhatsApp icon hover tooltip to “Join our community”.
+- [x] Add focused tests and validate route, external-link, tooltip, desktop, and mobile behavior.
+- [x] Save a checkpoint and deliver the community guidelines and contact enhancement.
+- [x] Review current community guidance, expert contact controls, reusable copy feedback, and internal resource routes.
+- [x] Add a motion-safe subtle pulse and one-click invite-copy action to the Talk to an Expert community card.
+- [x] Add a Community Resources section with useful internal articles and FAQ links to the guidelines page.
+- [x] Add focused tests and validate sharing feedback, resource destinations, motion preferences, and responsive layout.
+- [x] Save a checkpoint and deliver the community engagement enhancement.
+- [x] Remove the public Community Guidelines route and all related desktop/mobile menu entries.
+- [x] Remove or update dependent guidelines links and related regression assertions while preserving WhatsApp community actions.
+- [x] Validate navigation, expert contact, and responsive behavior after removal.
+- [x] Save a checkpoint and deliver the guidelines removal.
+
+- [x] Review current navigation, expert contact, and owner content models for the requested combined update.
+- [x] Add a QR scanning popup to the Talk to an Expert WhatsApp community action.
+- [x] Refine compact mobile header spacing and center the remaining controls.
+- [x] Add private owner-managed community guidance persistence and editing in the dashboard.
+- [x] Consolidate public navigation into one menu while keeping Community and Lab separate.
+- [x] Add focused tests and validate QR sharing, private access, menu behavior, mobile alignment, and data safety.
+- [x] Save a checkpoint and deliver the combined update.
+
+- [x] Review current QR dialog, private guidance editor, and shared header behavior.
+- [x] Add a Copy Link fallback below the WhatsApp QR code with clipboard feedback.
+- [x] Add rich formatting controls for bold text and lists in private Community guidance editing.
+- [x] Rename the unified dropdown to Home, right-align the full header control group, and make Community icon-only.
+- [x] Add subtle menu hover animation and verify outside-click dismissal.
+- [x] Add focused tests and validate desktop/mobile alignment, formatting, and sharing behavior.
+- [x] Save a checkpoint and deliver the refinement.
+
+- [x] Review current toast, header, guidance metadata, and available analytics capabilities.
+- [x] Add QR Copy Link success toast, descriptive Community tooltip, myIAM header label, and guidance Last Updated timestamp.
+- [x] Define consent, minimization, retention, and preview-privacy safeguards for visitor analytics before collecting any IP/location data.
+- [x] Implement an owner-only visitor analytics page using truthful collected data only; do not fabricate visitor records.
+- [x] Add focused tests and validate privacy boundaries, access control, responsive presentation, and feedback states.
+- [x] Save a checkpoint and deliver the visitor and guidance administration update.
+
+- [x] Implement option A visitor reporting: owner-only totals and page views with coarse country/region where available, no raw IP or exact location storage, and no fabricated visitor records.
+- [x] Preserve separate anonymous draft-preview analytics and document the visitor-data minimization boundary.
+- [x] Review visitor dashboard, footer, privacy-sensitive copy, and guidance editor state.
+- [x] Add a custom date-range filter to owner Visitor Analytics.
+- [x] Create a concise public privacy policy page describing privacy-minimized visitor analytics and link it from the footer.
+- [x] Add a quick Edit action beside the private community guidance Last Updated timestamp.
+- [x] Add focused tests and validate filter behavior, privacy disclosure, edit navigation, and responsive presentation.
+- [x] Save a checkpoint and deliver the analytics, privacy, and guidance-editing enhancement.
+
+- [x] Review shared header icon conventions and external-link safeguards for GitHub and GitLab.
+- [x] Add GitHub and GitLab icon links to the shared header with accessible labels and safe new-tab behavior.
+- [x] Validate external destinations, desktop/mobile fit, and header accessibility.
+- [x] Save a checkpoint and deliver the header integration.
+
+- [x] Review current Lab and owner content administration icon usage.
+- [x] Apply more appropriate Lab and owner administration icons with matching tooltips.
+- [x] Validate visual consistency, accessibility, and owner-only visibility.
+- [x] Save a checkpoint and deliver the icon refinement.
+
+- [x] Review current owner action cards and shared header controls.
+- [x] Add matching ShieldCheck and FlaskConical icons to corresponding owner dashboard action cards.
+- [x] Add reduced-motion-safe scale-up hover animation to GitHub, GitLab, Lab, and Admin header icons.
+- [x] Add an owner-only Content Administration quick-links dropdown for Visitor Analytics and Community Guidance.
+- [x] Add focused tests and validate access control, interaction states, and responsive presentation.
+- [x] Save a checkpoint and deliver the owner dashboard/header refinement.
+
+
+- [x] Add an owner-only header dropdown with quick links to Content Administration, Visitor Analytics, and Community Guidance.
+- [x] Make the Community Guidance quick link open the matching private editor panel via a URL hash.
+- [x] Apply motion-safe scale-up hover feedback to the shared header icon controls.
+- [x] Add regression coverage for owner shortcuts, quick-link destinations, semantic icons, and hover treatment.
+- [x] Run the full regression suite, TypeScript check, production build, and responsive desktop/mobile visual review.
+
+# Current refinement — owner analytics and navigation
+
+- [x] Add quick date-range presets and a data export button to the owner Visitor Analytics section.
+- [x] Add a dedicated owner shortcut entry to the compact mobile navigation drawer.
+- [x] Add an owner-only badge and active administration state indicator to the shared header.
+- [x] Make the Lab control icon-only while preserving its tooltip, status indicator, and safe external link behavior.
+- [x] Add focused tests and validate owner access, export behavior, active-state navigation, and responsive presentation.
+- [x] Save a checkpoint and deliver the completed owner refinement.
+
+# Follow-up refinement — remove owner active-state highlighting
+
+- [x] Remove active-state highlighting and active area text from owner administration badges while retaining the owner-only badge.
+- [x] Update regression coverage and validate the adjusted owner presentation.
+- [x] Save and publish the follow-up checkpoint.
+
+# Follow-up refinement — visitor summary and origin reporting
+
+- [x] Remove the Owner badge completely from shared and protected headers.
+- [x] Add a selected-date-range total visitors summary card to Visitor Analytics.
+- [x] Add privacy-safe masked or derived visitor-origin identifiers with coarse country/region reporting; do not expose raw IP addresses.
+- [x] Align the public Privacy Policy and analytics export with the privacy-safe origin reporting boundary.
+- [x] Add focused regression coverage and validate analytics access, aggregation, export, and responsive presentation.
+- [x] Save and publish the completed analytics refinement.
+
+# Follow-up refinement — visitor-origin trends and filtering
+
+- [x] Add privacy-safe daily visitor-origin trend aggregation by country or region.
+- [x] Add an owner-only visitor-origin trend chart to Visitor Analytics.
+- [x] Add a country/region filter for the visitor origins panel and keep the selected filter clearable.
+- [x] Extend CSV/export and regression coverage for the origin trend and filter behavior without exposing raw IP addresses.
+- [x] Validate desktop/mobile presentation and publish the completed analytics refinement.
+
+# Bug fix — Visitor Analytics duplicate origin keys
+
+- [x] Replace duplicate visitor-origin display keys with stable unique keys that remain distinct when masked prefixes repeat.
+- [x] Add regression coverage for repeated masked-origin labels and filtered origin rendering.
+- [x] Run tests, type checks, production build, and responsive visual validation.
+- [x] Save and publish the bug-fix checkpoint.
+
+# Follow-up refinement — Visitor origins scale and country availability
+
+- [x] Add pagination or a load-more interaction to the Visitor origins panel.
+- [x] Add a compact count of records matching the active origin filter.
+- [x] Add unique anonymized labels for repeated masked prefixes without exposing raw IP addresses.
+- [x] Diagnose and explain the current country/region availability limitation, with an actionable status message in analytics.
+- [x] Add focused regression coverage and validate desktop/mobile behavior.
+- [x] Save and publish the completed Visitor origins refinement.
+
+# Follow-up refinement — scalable visitor-origin data quality
+
+- [x] Add an owner-only country and region availability health indicator for the selected analytics range.
+- [x] Replace client-only Visitor origins slicing with server-side pagination and explicit page metadata.
+- [x] Add an info tooltip beside unavailable-region labels explaining trusted edge-provider configuration.
+- [x] Add regression coverage for pagination boundaries, health states, tooltip content, and privacy constraints.
+- [x] Run full tests, TypeScript validation, production build, and responsive visual review.
+- [x] Save and publish the completed analytics scalability refinement.
+
+# Follow-up refinement — visitor country display
+
+- [x] Display human-readable visitor country names in the owner Visitor origins and geography views when trusted country codes are supplied.
+- [x] Preserve masked identifiers and coarse geography privacy boundaries, with an unavailable fallback when country data is absent.
+- [x] Add regression coverage for country-code-to-name rendering and missing-country states.
+- [x] Run full tests, TypeScript validation, production build, and responsive visual review.
+- [x] Save and publish the visitor country display update.
+
+# Follow-up refinement — visitor geography visualization
+
+- [x] Add provider-aware region-code to local-area-name mapping while retaining the original coarse code fallback.
+- [x] Add daily country-coverage history aggregation and an owner dashboard chart.
+- [x] Add an owner-only interactive country-level world map using privacy-safe aggregate country counts.
+- [x] Add regression coverage for region mapping, coverage history, map data, and privacy boundaries.
+- [x] Run full tests, TypeScript validation, production build, and responsive visual review.
+- [x] Save and publish the completed visitor geography visualization refinement.
+
+# Follow-up refinement — country map controls and ranking
+
+- [x] Add a legend explaining map marker intensity and privacy-safe aggregate counts.
+- [x] Add a top-country ranking list beside the interactive world map.
+- [x] Expand provider-specific subdivision mappings for more local region names.
+- [x] Add a toggle between the interactive world map and a detailed country data table.
+- [x] Add regression coverage and validate owner-only access, map/table behavior, and responsive presentation.
+- [x] Run full tests, TypeScript validation, production build, and publish the completed country-view refinement.

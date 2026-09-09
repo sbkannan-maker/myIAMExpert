@@ -1,0 +1,3 @@
+# Visitor-origin validation notes
+
+Desktop and mobile full-page review completed on 2026-09-03. The Visitor Analytics page renders the geography health card with an Unavailable status and 0% country/region coverage when trusted proxy headers are absent. The selected-range totals remain visible. The Visitor origins panel displays the matching-record count, masked prefixes, distinct Origin labels, and the unavailable-geography guidance. The compact mobile layout keeps the health card, chart sections, filters, origin rows, and privacy notice within the viewport without clipping. Server-side pagination controls are wired for multi-page datasets; the current six-record sample correctly stays on one page.

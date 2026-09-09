@@ -1,0 +1,3 @@
+# Visitor geography validation notes
+
+The owner Visitor Analytics page was reviewed at desktop (1280×720 full-page) and compact mobile (390×844 full-page) sizes. The country coverage history chart renders within the existing dark visual system with readable legends and date axes. The country map section is responsive and presents a privacy-safe empty state when the selected range has no trusted country data; it does not imply a location when the deployment provides no country header. Existing daily activity, origin trend, server-side pagination, and privacy notice sections remain visible without clipping. Mobile stacking remains coherent, with the map container fitting the narrow viewport.

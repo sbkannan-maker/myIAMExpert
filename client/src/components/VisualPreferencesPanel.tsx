@@ -1,0 +1,16 @@
+import { Settings2, Sparkles, Volume2 } from "lucide-react";
+import LogoSoundToggle from "@/components/LogoSoundToggle";
+import { Button } from "@/components/ui/button";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { useVisualPreferences, type MotionPreference } from "@/contexts/VisualPreferencesContext";
+
+const motionOptions: { value: MotionPreference; label: string; detail: string }[] = [
+  { value: "system", label: "System", detail: "Follow device accessibility settings" },
+  { value: "full", label: "Full motion", detail: "Show brand and interface animation" },
+  { value: "reduced", label: "Reduced", detail: "Pause non-essential motion and video" },
+];
+
+export default function VisualPreferencesPanel({ className = "" }: { className?: string }) {
+  const { motionPreference, isReducedMotion, setMotionPreference } = useVisualPreferences();
+  return <Popover><PopoverTrigger asChild><Button type="button" variant="outline" size="icon" className={`rounded-full border-border/80 bg-background/80 text-muted-foreground shadow-lg shadow-black/5 hover:border-accent/55 hover:text-foreground ${className}`} aria-label="Open visual preferences" title="Visual preferences"><Settings2 className="h-4 w-4" /></Button></PopoverTrigger><PopoverContent align="end" className="w-80 rounded-2xl border-border/80 bg-popover p-4 text-popover-foreground shadow-2xl"><div className="flex items-start gap-3"><span className="grid h-9 w-9 place-items-center rounded-xl bg-accent/13 text-accent"><Sparkles className="h-4 w-4" /></span><div><p className="text-sm font-bold">Visual preferences</p><p className="mt-0.5 text-xs leading-5 text-muted-foreground">Choose how myIAM moves and sounds on this device.</p></div></div><div className="mt-5"><p className="font-mono text-[10px] font-semibold uppercase tracking-[.14em] text-muted-foreground">Motion</p><div className="mt-2 grid gap-1">{motionOptions.map((option) => <button key={option.value} type="button" onClick={() => setMotionPreference(option.value)} aria-pressed={motionPreference === option.value} className={`rounded-xl border p-3 text-left ${motionPreference === option.value ? "border-accent/55 bg-accent/10" : "border-transparent hover:border-border hover:bg-muted/70"}`}><span className="flex items-center justify-between gap-2"><span className="text-sm font-semibold">{option.label}</span>{motionPreference === option.value && <span className="rounded-full bg-accent px-2 py-0.5 font-mono text-[9px] font-bold uppercase text-accent-foreground">Active</span>}</span><span className="mt-1 block text-xs text-muted-foreground">{option.detail}</span></button>)}</div></div><div className="mt-4 rounded-xl border border-border/70 bg-muted/35 p-3"><div className="flex items-center justify-between gap-3"><div><p className="flex items-center gap-2 text-sm font-semibold"><Volume2 className="h-4 w-4 text-accent" /> Logo audio</p><p className="mt-1 text-xs text-muted-foreground">Opt in only when you want to hear the brand clip.</p></div><LogoSoundToggle /></div>{isReducedMotion && <p className="mt-2 text-xs text-muted-foreground">Audio is disabled while reduced motion is selected.</p>}</div></PopoverContent></Popover>;
+}

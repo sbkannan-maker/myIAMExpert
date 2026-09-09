@@ -1,0 +1,3 @@
+# Country view validation notes
+
+The owner Visitor Analytics country section was reviewed at desktop (1280×720 full-page) and compact mobile (390×844 full-page) sizes. The Map/Table toggle remains visible and usable at both widths. The map area, top-country ranking panel, and legend are visually grouped on desktop and stack cleanly on mobile without clipping. With no trusted country data in the current range, the map and ranking show truthful empty states rather than inferred locations. The existing coverage chart, origin trend, server-side origin pagination, and privacy notice remain readable.

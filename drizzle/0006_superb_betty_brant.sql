@@ -1,0 +1,1 @@
+ALTER TABLE `managedSiteContentRevisions` ADD `entryKey` varchar(255) DEFAULT 'collection' NOT NULL;

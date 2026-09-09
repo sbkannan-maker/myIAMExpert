@@ -1,0 +1,2 @@
+ALTER TABLE `scheduledBlogPublications` MODIFY COLUMN `status` enum('scheduled','paused','published','cancelled') NOT NULL DEFAULT 'scheduled';--> statement-breakpoint
+ALTER TABLE `scheduledBlogPublications` ADD `specification` text NOT NULL;
